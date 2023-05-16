@@ -1,0 +1,55 @@
+body{
+    background-color: azure;
+    padding:0px 70px
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30%;
+}
+.nav li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 19px 19px;
+    text-align: center;
+}
+.nav li a{
+    text-decoration: none;
+    color: black;
+}
+.nav img{
+width: 7%;
+}
+.home{
+display: flex;
+flex-direction: row;
+margin-top: 50px;
+justify-content: space-between;
+}
+ #pone{
+font-size: 50px;
+color: #054208;
+ }
+ #ptwo{
+font-size: 20px;
+margin-top: 50px;
+ }
+ /* Our story */
+ .ourstory{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    justify-content: space-between;
+ }
+ .storyparag{
+    width: 40%;
+ }
+ #h1story{
+  color: #054208;
+ }
+ #pstory{
+font-size: 20px;
+ }
+#ourstoryimg{
+    border-radius: 70px;
+}
