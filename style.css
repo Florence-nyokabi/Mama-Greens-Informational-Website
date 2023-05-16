@@ -181,3 +181,102 @@ font-size: 20px;
   button[type="submit"]:hover {
     background-color: #45A049;
   }
+  @media only screen and(max-width:700px) {
+    body{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    }
+    }
+    /* Mobile Responsive CSS */
+    @media only screen and (max-width: 767px) {
+        .nav {
+        flex-direction: column;
+        margin-left: 0;
+        }
+        .nav li {
+        padding: 10px;
+        }
+        p {
+            font-size: 10px;
+            line-height: 1.0;
+          }
+        .home{
+            display: grid;
+        }
+        .home img{
+            max-width:100%;
+        }
+          #pone{
+            font-size: 20px;
+            margin-right: 0;
+          }
+        #ptwo{
+            font-size: 12px;
+        }
+        .ourstory{
+            display: grid;
+            margin-top: 10px;
+        }
+        #h1story{
+            font-size: 20px;
+        }
+        #pstory{
+            font-size: 10px;
+        }
+        #ourstoryimg{
+            max-width: 100%;
+        }
+        .availableprices{
+            display: grid;
+        }
+        .availableprices img{
+            max-width: 100%;
+        }
+        #h1prices{
+            font-size: 20px;
+        }
+        #h2offer{
+            font-size: 20px;
+        }
+        #poffer{
+            font-size: 12px;
+        }
+        #h2veggies{
+            font-size: 20px;
+        }
+        .servicesweoffer{
+            display: grid;
+        }
+        #imgoffer{
+            max-width: 70%;
+        }
+        .offer h2{
+            font-size: 20px;
+        }
+        .offer p {
+            font-size: 12px;
+            line-height: 1.0;
+        }
+        #h2services{
+            font-size: 20px;
+        }
+        #h3team{
+            font-size: 20px;
+        }
+        .team2{
+            display:table-row;
+        }
+        #team{
+            max-width: 20%;
+        }
+        #contact{
+            display: grid;
+            width: 100%;
+        }
+    }
+       /* Tablet Responsive CSS */
+       @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .nav li {
+        padding: 12px;
+        }
+    }
