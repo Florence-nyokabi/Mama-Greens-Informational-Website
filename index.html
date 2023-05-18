@@ -6,32 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mama Greens</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+  <header class="navv">
     <nav class="nav">
-        <img src="images/mama greens (1).jpg">
+        <img  id="logo"  src="images/mama greens (1).jpg">
         <li><a href="">Home</a></li>
         <li><a href="#about">About us</a></li>
         <li><a href="#products">Product and services</a></li>
         <li><a href="#contact">Contact us</a></li>    
     </nav> 
+  </header>
 
-    <div class="home">
+  <div class="ourstory" id="about">
+    <div class="storyparag">
+        <h1 id="h1story">Our Story</h1>
+        <p id="pstory">Mama Greens is an end to end tool on the market that links vegetable vendors with customers.
+
+            Mama Greens has revolutionized the local fresh fruits and vegetables
+            sector such that it is easier for Mama Mboga to market her products and reach her customers
+            via digital strategies.<br>Its consistent, efficient and proffitable local online connection.
+            Decicated to providing fast, reliable services with focus on people and the environment.
+        </p>
+    </div>
+
+
+    <!-- <div class="home"> -->
+        <!-- <div> -->
+            <!-- <h2 id="pone">Perfect  Your  Taste with Fresh,<br>  -->
+                <!-- Quality Produce. -->
+            <!-- </h2> -->
+            <!-- <p id="ptwo">  -->
+                 <!-- Fruits and vegetables are low in calories and high in fiber which can  -->
+                 <!-- help <br>with weight management. Fiber helps us feel full and satisfied, -->
+                 <!-- which can<br> prevent overeating and promote healthy digestion. -->
+                 <!-- Eating a diet rich in <br>fruits and vegetables can also help reduce the risk of obesity,  -->
+                 <!-- which is a <br>major risk factor for many chronic diseases. -->
+            <!-- </p> -->
+        <!-- </div> -->
+<!--          -->
         <div>
-            <h2 id="pone">Perfect  Your  Taste with Fresh,<br> 
-                Quality Produce.
-            </h2>
-            <p id="ptwo"> 
-                 Fruits and vegetables are low in calories and high in fiber which can 
-                 help <br>with weight management. Fiber helps us feel full and satisfied,
-                 which can<br> prevent overeating and promote healthy digestion.
-                 Eating a diet rich in <br>fruits and vegetables can also help reduce the risk of obesity, 
-                 which is a <br>major risk factor for many chronic diseases.
-            </p>
-        </div>
-        
-        <div>
-             <img src="images/3 phones.png">
+             <img  id="first-image" src="images/bosa.png">
         </div>
     </div>
 
@@ -39,18 +55,20 @@
 
 <div class="ourstory" id="about">
     <div class="storyparag">
-        <h1 id="h1story">Our Story</h1>
-        <p id="pstory">Mama Greens is an end to end tool on the market that links vegetable vendors with their customers.<br>
-            It utilizes digitalization of Mama Mboga businesses.
-            Mama Greens has revolutionized the local fresh fruits and vegetables
-            sector such that it is easier for Mama Mboga to market her products and reach her customers
-            via digital strategies.<br>Its consistent, efficient and proffitable local online connection
-            Decicated to providing fast, reliable services with focus on people and the environment.
-        </p>
+       <!-- <div> -->
+     <h2 id="pone">Perfect  Your  Taste with Fresh,<br> 
+         Quality Produce.
+     </h2>
+     <p id="ptwo"> 
+          Fruits and vegetables are low in calories and high in fiber which can 
+          help with weight management. Fiber helps us feel full and satisfied,
+          which can prevent overeating and promote healthy digestion.
+          Eating a diet rich in fruits and vegetables can also help reduce the risk of obesity, 
+
     </div>
 
     <div>
-        <img id="ourstoryimg" src="images/bosa.png">
+        <img id="ourstoryimg" src="images/3 phones.png">
     </div>
 </div>
 
@@ -61,7 +79,7 @@
       <img src="images/veges1.jpg">
     </div>
     <div>
-        <h1 id="h1prices">Available Prices</h1>
+        <h1 id="h1prices">Affordable Prices</h1>
         <h1 id="h1prices">High Quality Products</h1>
         <p id="h3prices">Quality Ucompromised Price Unmatched</p>
     </div>
@@ -91,23 +109,8 @@
     </div>
 </div> 
 
-<!-- services we offer -->
-<h2 id="h2services">Services</h2>
-<div class="servicesweoffer">
-    
-    <div>
-        <img id="imgoffer" src="images/lastone.jpg">
-    </div>
-
-    <div class="offer">
-        <h2>Services We Offer</h2>
-        <p>Our Online website offers a wide range of services.<br>You can simply order At the comfort of your home.</p>
-    </div>
-</div>
-
 <!-- The team -->
 <h3 id="h3team">The team</h3>
-
 <div class="team2">
     <img id="team" src="images/wamboimegan.jpg"> 
     <img id="team" src="images/brijo.jpg">
@@ -116,40 +119,79 @@
     <img id="team" src="images/rabeka.png">
 
 </div>
-
-<!-- contacts -->
-<section id="contact">
-    <h2 id="h2contact">Contact Us</h2>
-    <p>Got any questions or feedback? Reach out to us!</p>
-  
-    <div class="contact-info" id="contact">
-      <div>
-        <h3>Phone</h3>
-        <p>Call us at: <a href="tel:+123456789">+123456789</a></p>
-      </div>
-      <div>
-        <h3>Address</h3>
-        <p>616 Korongo,Karen, Nairobi, Kenya</p>
-      </div>
-    </div>
-  
-    <form id="contact-form">
-      <h3 id="h3form">Send us a message</h3>
-      <div class="form-group">
-        <label for="name">Your Name</label>
-        <input type="text" id="name" name="name" required>
-      </div>
-      <div class="form-group">
-        <label for="email">Email Address</label>
-        <input type="email" id="email" name="email" required>
-      </div>
-      <div class="form-group">
-        <label for="message">Message</label>
-        <textarea id="message" name="message" required></textarea>
-      </div>
-      <button type="submit">Send Message</button>
-    </form>
-  </section>
+<div class="members">
+    <p>Margaret Wamboi</p>
+    <p>Bridget Nakakande </p>
+    <p>Henriette Oloo</p>
+    <p>Florence Wangui</p>
+    <p>Rebecca Nakachwa</p>
     
+</div>
+
+<section>
+    
+  <div class="footer" id="contact">
+      <div class="container">
+  <div class="row">
+   <div class="footer-column">
+  
+          <ul>
+     <h3>Company</h3>
+    <p>About MamaGreen</p>
+    <p>Our stores</p>
+    <p>Discounts</p>
+   
+   
+
+
+  </div>
+  <div class="footer-column">
+  
+  <h3>Help</h3>
+  <p>Delivery and pay</p>
+
+  <p>Reviews</p>
+  <p>Feedback</p>
+  <p>FAQ</p>
+  </div>
+  <div class="footer-column">
+  
+  <h3>Contacts</h3>
+  <p>0(500)5647376</p>
+  <p>mamagreen@gmail.com</p>
+  
+  </div>
+  <div class="footer-column">
+      <h2>We work</h2>
+      <p>Mon-Fri 08:00-22:00</p>
+      <p>Sat-Sun 3:00-20:00</p>
+  </div>
+  <div class="footer-column">
+  <h3>Social Networks</h3>
+
+  <i class="fa fa-linkedin" aria-hidden="true"></i>
+  <i class="fa fa-twitter" aria-hidden="true"></i>
+  <i class="fa fa-youtube-play" aria-hidden="true"></i>
+  </div>
+  <div>
+  <h3>You Can Pay</h3>
+ <img id="mpesa" src="/images/mpesa.png">
+  <i class="fa fa-cc-paypal" aria-hidden="true"></i>
+  
+  </div>
+
+  </div>
+
+  </div>
+  <div class="footer-two">
+      <h3>MamaGreen</h3>
+      <p>Privacy Policy</p>
+      <p>Adverts</p>
+      <p>Copyright</p>
+</div>
+  </div>
+  
+  </section>
+
 </body>
 </html>
